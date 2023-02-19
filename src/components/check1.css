@@ -1,0 +1,20 @@
+.check1-check {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  position: relative;
+  align-items: center;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+  padding-right: 8px;
+  flex-direction: row;
+  padding-bottom: 8px;
+  justify-content: center;
+}
+.check1-icon {
+  fill: #D9D9D9;
+  width: 24px;
+  height: 24px;
+}
