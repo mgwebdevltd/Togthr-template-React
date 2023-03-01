@@ -14,17 +14,15 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>MG WebDev Ltd - cheapest websites for enterprise</title>
-        <meta
-          property="og:title"
-          content="MG WebDev Ltd - cheapest websites for enterprise"
-        />
+        <title>Home | MG WebDev Ltd</title>
+        <meta property="og:title" content="Home | MG WebDev Ltd" />
       </Helmet>
       <section className="home-hero">
         <video
           src="https://mgwebdev.eu/media/MC354_MG_WEBDEV_LTD_WEBSITE_HEADER_v30_20220215_16-9_CLEAN_KLEIN.mp4"
           loop
           muted
+          poster="/playground_assets/hero-bg-1400w.webp"
           preload="auto"
           autoPlay
           playsInline
@@ -69,10 +67,10 @@ const Home = (props) => {
                 className="home-nav1"
               >
                 <span className="home-text">About</span>
-                <span className="home-text01">Features</span>
-                <span className="home-text02">Pricing</span>
-                <span className="home-text03">Team</span>
-                <span className="home-text04">Blog</span>
+                <span className="home-text001">Features</span>
+                <span className="home-text002">Pricing</span>
+                <span className="home-text003">Team</span>
+                <span className="home-text004">Blog</span>
               </nav>
               <div className="home-container2">
                 <a
@@ -87,19 +85,17 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-icon-group">
-              <svg viewBox="0 0 950.8571428571428 1024" className="home-icon03">
-                <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-              </svg>
-              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon05">
+              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon03">
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
-              <svg viewBox="0 0 602.2582857142856 1024" className="home-icon07">
+              <svg viewBox="0 0 602.2582857142856 1024" className="home-icon05">
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
             </div>
           </div>
         </header>
-        <div className="home-hero-content">
+        <div className="home-hero-content"></div>
+        <div className="home-hero-content1">
           <div className="home-header-container">
             <div className="home-header">
               <h1 className="home-heading">
@@ -111,8 +107,8 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <br className="home-text06"></br>
-                <span className="home-text07">web development</span>
+                <br className="home-text006"></br>
+                <span className="home-text007">web development</span>
                 <br></br>
               </h1>
             </div>
@@ -120,13 +116,13 @@ const Home = (props) => {
               Connecting enterprise companies from around the world by touching
               suprising &amp; inspiring.
             </p>
+            <button className="button home-button">
+              <span>
+                <span>Get started today</span>
+                <br></br>
+              </span>
+            </button>
           </div>
-          <button className="button home-button">
-            <span>
-              <span>Get started today</span>
-              <br></br>
-            </span>
-          </button>
         </div>
       </section>
       <section className="home-note">
@@ -158,7 +154,7 @@ const Home = (props) => {
           <h2 className="home-heading01">
             <span>The first all-in-one </span>
             <br></br>
-            <span className="home-text14">management platform</span>
+            <span className="home-text014">management platform</span>
           </h2>
         </div>
         <div className="home-selector">
@@ -204,7 +200,7 @@ const Home = (props) => {
                     </div>
                     <div className="home-more">
                       <span className="home-caption07">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon09">
+                      <svg viewBox="0 0 1024 1024" className="home-icon07">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -227,7 +223,7 @@ const Home = (props) => {
                     </div>
                     <div className="home-more1">
                       <span className="home-caption09">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon11">
+                      <svg viewBox="0 0 1024 1024" className="home-icon09">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -250,7 +246,7 @@ const Home = (props) => {
                     </div>
                     <div className="home-more2">
                       <span className="home-caption11">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon13">
+                      <svg viewBox="0 0 1024 1024" className="home-icon11">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -273,7 +269,7 @@ const Home = (props) => {
                     </div>
                     <div className="home-more3">
                       <span className="home-caption13">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon15">
+                      <svg viewBox="0 0 1024 1024" className="home-icon13">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -286,7 +282,7 @@ const Home = (props) => {
                 data-role="previous-banner-button"
                 className="home-previous blaze-prev button"
               >
-                <svg viewBox="0 0 1024 1024" className="home-icon17">
+                <svg viewBox="0 0 1024 1024" className="home-icon15">
                   <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
                 </svg>
               </button>
@@ -294,7 +290,7 @@ const Home = (props) => {
                 data-role="next-banner-button"
                 className="home-next blaze-next button"
               >
-                <svg viewBox="0 0 1024 1024" className="home-icon19">
+                <svg viewBox="0 0 1024 1024" className="home-icon17">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
               </button>
@@ -319,54 +315,64 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="home-get-started">
-        <div className="home-header-container1">
-          <div className="home-header09">
-            <h2 className="home-heading06">
-              &quot;Turning ideas into oppertunities&quot;
-            </h2>
-            <p className="home-caption14">
-              <span>
-                Turn your ideas into &apos;big&apos; opportunities, together
-              </span>
-              <br></br>
-              <span>with MG WebDev and Byet we&apos;ll change the world.</span>
-              <br></br>
-            </p>
-          </div>
-          <div className="home-button1">
-            <button className="button">
-              <span>Get started today</span>
-            </button>
+        <div className="home-container3">
+          <div className="home-container4">
+            <div className="home-header-container1">
+              <div className="home-header09">
+                <h2 className="home-heading06">
+                  &quot;Turning ideas into oppertunities&quot;
+                </h2>
+                <p className="home-caption14">
+                  <span>
+                    Turn your ideas into &apos;big&apos; opportunities, together
+                  </span>
+                  <br></br>
+                  <span>
+                    with MG WebDev and Byet we&apos;ll change the world.
+                  </span>
+                  <br></br>
+                </p>
+              </div>
+              <div className="home-button1">
+                <button className="button">
+                  <span>Get started today</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <img
-          alt="image"
-          src="/playground_assets/space_template_1__1_-1400w.png"
-          className="home-image05"
-        />
+        <video
+          src="https://mgwebdev.letz.dev/media/globe-900.h264.mp4"
+          loop
+          muted
+          poster="/playground_assets/globe.webp"
+          preload="auto"
+          autoPlay
+          className="home-video1"
+        ></video>
       </section>
-      <section className="home-objectives">
+      <section id="Objectives" className="home-objectives">
         <div className="home-content05">
-          <span className="home-text24">Objectives</span>
+          <span className="home-text024">Objectives</span>
           <div className="home-objectives-list">
             <div className="objective">
-              <h3 className="home-text25">Growth</h3>
-              <p className="home-text26">
+              <h3 className="home-text025">Growth</h3>
+              <p className="home-text026">
                 We want your company to stand out to the world, that&apos;s why
                 we help you to get on top of Google and other search engines.
               </p>
             </div>
             <div className="objective home-objective1">
-              <h3 className="home-text27">Develop</h3>
-              <p className="home-text28">
+              <h3 className="home-text027">Develop</h3>
+              <p className="home-text028">
                 We keep actively developing on your site. Need something to be
                 edited or added to the site, no problem, we&apos;ll do it for
                 you.
               </p>
             </div>
             <div className="objective home-objective2">
-              <h3 className="home-text29">Optimize</h3>
-              <p className="home-text30">
+              <h3 className="home-text029">Optimize</h3>
+              <p className="home-text030">
                 Every company needs to be accessible on both mobile and desktop,
                 and needs to be optimized for fast speeds.
               </p>
@@ -387,7 +393,7 @@ new BlazeSlider(el, {
                     }}
                   />
                 </span>
-                <span className="home-text32">growth.</span>
+                <span className="home-text032">growth.</span>
                 <br></br>
               </h2>
             </div>
@@ -401,8 +407,8 @@ new BlazeSlider(el, {
           </div>
           <div className="home-testimonial">
             <div className="home-content07">
-              <span className="home-text34">Testimonial</span>
-              <p className="home-text35">
+              <span className="home-text034">Testimonial</span>
+              <p className="home-text035">
                 “We started off as a small group on Facebook. I wanted to turn
                 the small community into a bigger business. This was ust an idea
                 and I never thought it would work.”
@@ -413,7 +419,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBvdHJhaXR8ZW58MHx8fHwxNjcxMDU2MzMz&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="home-icon21"
+                  className="home-icon19"
                 />
                 <span className="home-name">Hans Nagel</span>
               </div>
@@ -430,7 +436,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://images.unsplash.com/photo-1581012771300-224937651c42?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1fHxtb2Rlcm4lMjBhaXJwb3J0fGVufDB8fHx8MTY3NjgxNzUzOQ&amp;ixlib=rb-4.0.3&amp;w=1400"
-            className="home-image06"
+            className="home-image05"
           />
         </div>
       </section>
@@ -440,7 +446,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://images.unsplash.com/photo-1530625625693-b38b404cb1be?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHRyYWlufGVufDB8fHx8MTY3NjgxNzU5NA&amp;ixlib=rb-4.0.3&amp;w=1400"
-            className="home-image07"
+            className="home-image06"
           />
         </div>
         <div className="home-content08">
@@ -449,7 +455,7 @@ new BlazeSlider(el, {
               <div className="home-header13">
                 <h2 className="home-heading08">
                   <span>A worlds class </span>
-                  <span className="home-text37">experience</span>
+                  <span className="home-text037">experience</span>
                 </h2>
               </div>
               <p className="home-caption17">
@@ -460,44 +466,44 @@ new BlazeSlider(el, {
             <div className="home-checkmarks">
               <div className="home-check">
                 <div className="home-mark">
+                  <svg viewBox="0 0 1024 1024" className="home-icon20">
+                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
+                  </svg>
+                </div>
+                <span className="home-text038">Security with every site</span>
+              </div>
+              <div className="home-check1">
+                <div className="home-mark1">
                   <svg viewBox="0 0 1024 1024" className="home-icon22">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text38">Security with every site</span>
+                <span className="home-text039">Support always available</span>
               </div>
-              <div className="home-check1">
-                <div className="home-mark1">
+              <div className="home-check2">
+                <div className="home-mark2">
                   <svg viewBox="0 0 1024 1024" className="home-icon24">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text39">Support always available</span>
-              </div>
-              <div className="home-check2">
-                <div className="home-mark2">
-                  <svg viewBox="0 0 1024 1024" className="home-icon26">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text40">
+                <span className="home-text040">
                   Manage subscriptions in the management portal
                 </span>
               </div>
               <div className="home-check3">
                 <div className="home-mark3">
-                  <svg viewBox="0 0 1024 1024" className="home-icon28">
+                  <svg viewBox="0 0 1024 1024" className="home-icon26">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text41">Edit your site anytime</span>
+                <span className="home-text041">Edit your site anytime</span>
               </div>
             </div>
           </div>
           <div className="home-testimonial1">
             <div className="home-content09">
-              <span className="home-text42">Testimonial</span>
-              <p className="home-text43">
+              <span className="home-text042">Testimonial</span>
+              <p className="home-text043">
                 “When launching our &apos;new&apos; project, we didn&apos;t know
                 how to promote it. With the help of developers we created a site
                 and started advertising with our campus premises.”
@@ -508,7 +514,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="/playground_assets/ludo_01-2-200h.jpg"
-                  className="home-icon30"
+                  className="home-icon28"
                 />
                 <span className="home-name1">Ludo Grunwald</span>
               </div>
@@ -521,7 +527,7 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
-      <section className="home-create">
+      <section id="Create_env" className="home-create">
         <div className="home-content10">
           <div className="home-header14">
             <h2 className="home-heading09">
@@ -533,7 +539,7 @@ new BlazeSlider(el, {
                   }}
                 />
               </span>
-              <span className="home-text45">environment</span>
+              <span className="home-text045">environment</span>
               <span> now!</span>
               <br></br>
             </h2>
@@ -546,12 +552,12 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
-      <section className="home-comparision">
+      <section id="comparisation" className="home-comparision">
         <div className="home-header-container3">
           <div className="home-header15">
             <h2 className="home-heading10">
               <span>Environment c</span>
-              <span className="home-text52">omparision</span>
+              <span className="home-text052">omparision</span>
               <br></br>
             </h2>
           </div>
@@ -562,30 +568,30 @@ new BlazeSlider(el, {
         <div className="home-table">
           <div className="home-row">
             <div className="home-headers">
-              <span className="home-text54">Placeholder</span>
+              <span className="home-text054">Placeholder</span>
             </div>
             <div className="home-plans">
               <div className="home-row01">
-                <span className="home-text55">startup</span>
-                <span className="home-text56">AGENCY</span>
-                <span className="home-text57">FRELLANCE</span>
+                <span className="home-text055">startup</span>
+                <span className="home-text056">AGENCY</span>
+                <span className="home-text057">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="home-row02">
             <div className="home-headers1">
-              <span className="home-text58">Active domains </span>
+              <span className="home-text058">Active domains </span>
             </div>
             <div className="home-plans1">
               <div className="home-row03">
                 <div className="value">
-                  <span className="home-text59">1</span>
+                  <span className="home-text059">1</span>
                 </div>
                 <div className="value">
-                  <span className="home-text60">1</span>
+                  <span className="home-text060">1</span>
                 </div>
                 <div className="value">
-                  <svg viewBox="0 0 1024 1024" className="home-icon31">
+                  <svg viewBox="0 0 1024 1024" className="home-icon29">
                     <path d="M701.141 366.763c-49.195 0-95.445 19.157-129.536 53.163l-59.563 57.173-58.667-56.32c-34.773-34.859-81.109-54.016-130.347-54.016-49.237 0-95.531 19.243-130.261 54.016-34.859 34.816-54.059 81.067-54.059 130.347 0 49.152 19.157 95.488 54.016 130.261 34.731 34.816 81.024 54.016 130.304 54.016 49.195 0 95.531-19.157 129.536-53.248l59.52-57.088 58.709 56.32c34.773 34.816 81.109 54.016 130.347 54.016s95.488-19.157 130.261-54.016c34.859-34.731 54.059-81.067 54.059-130.347s-19.157-95.488-54.016-130.347c-34.859-34.773-81.109-53.931-130.304-53.931zM377.899 605.909c-29.312 29.355-80.384 29.355-109.739 0-14.677-14.677-22.741-34.176-22.741-54.827 0-20.736 8.064-40.149 22.827-54.912 14.592-14.677 34.091-22.741 54.784-22.741s40.192 8.064 55.68 23.509l56.363 54.187-57.173 54.784zM755.968 605.909c-29.312 29.397-79.616 30.080-110.507-0.768l-56.363-54.187 57.131-54.827c29.355-29.355 80.469-29.355 109.781-0.085 14.677 14.763 22.741 34.176 22.741 54.912s-8.107 40.277-22.784 54.955z"></path>
                   </svg>
                 </div>
@@ -594,25 +600,25 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row04">
             <div className="home-headers2">
-              <span className="home-text61">Bandwidth </span>
+              <span className="home-text061">Bandwidth </span>
             </div>
             <div className="home-plans2">
               <div className="home-row05">
                 <div className="value">
-                  <span className="home-text62">85GB</span>
+                  <span className="home-text062">85GB</span>
                 </div>
                 <div className="value">
-                  <span className="home-text63">120GB</span>
+                  <span className="home-text063">120GB</span>
                 </div>
                 <div className="value">
-                  <span className="home-text64">1TB</span>
+                  <span className="home-text064">1TB</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="home-row06">
             <div className="home-headers3">
-              <span className="home-text65">SSL - Certificate</span>
+              <span className="home-text065">SSL - Certificate</span>
             </div>
             <div className="home-plans3">
               <div className="home-row07">
@@ -630,7 +636,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row08">
             <div className="home-headers4">
-              <span className="home-text66">5G network </span>
+              <span className="home-text066">5G network </span>
             </div>
             <div className="home-plans4">
               <div className="home-row09">
@@ -648,7 +654,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row10">
             <div className="home-headers5">
-              <span className="home-text67">Email accounts </span>
+              <span className="home-text067">Email accounts </span>
             </div>
             <div className="home-plans5">
               <div className="home-row11">
@@ -666,7 +672,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row12">
             <div className="home-headers6">
-              <span className="home-text68">Custom error pages</span>
+              <span className="home-text068">Custom error pages</span>
             </div>
             <div className="home-plans6">
               <div className="home-row13">
@@ -684,7 +690,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row14">
             <div className="home-headers7">
-              <span className="home-text69">Status page </span>
+              <span className="home-text069">Status page </span>
             </div>
             <div className="home-plans7">
               <div className="home-row15">
@@ -715,7 +721,7 @@ new BlazeSlider(el, {
                     }}
                   />
                 </span>
-                <span className="home-text71">platform</span>
+                <span className="home-text071">platform</span>
                 <br></br>
               </h2>
             </div>
@@ -728,11 +734,11 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="home-content11">
-          <div className="home-image08">
+          <div className="home-image07">
             <img
               alt="image"
               src="/playground_assets/data-1400w.png"
-              className="home-image09"
+              className="home-image08"
             />
           </div>
           <div className="home-accordion">
@@ -743,17 +749,19 @@ new BlazeSlider(el, {
               <div>
                 <h3 className="home-header17">Management</h3>
               </div>
-              <p data-role="accordion-content" className="accordion-content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
+              <div className="home-container5">
+                <p data-role="accordion-content" className="accordion-content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </p>
+              </div>
               <IconContainer rootClassName="icon-container-root-class-name"></IconContainer>
             </div>
             <div data-role="accordion-container" className="accordion">
@@ -864,7 +872,7 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
-      <section className="home-customer">
+      <section id="testemonials" className="home-customer">
         <div className="home-header21">
           <h2 className="home-heading12">
             <span>
@@ -875,88 +883,75 @@ new BlazeSlider(el, {
                 }}
               />
             </span>
-            <span className="home-text78">product development process</span>
+            <span className="home-text078">product development process</span>
             <br></br>
           </h2>
         </div>
         <div className="home-quotes">
           <div className="home-quote">
             <p className="home-quote1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              MG WebDev Ltd. created my website with love. They are a very
+              creative team and always stand by to help you if you have any
+              problems with your website. 
             </p>
             <div className="home-author2">
-              <span className="home-name2">Joanna Smith</span>
-              <span className="home-location">Briville</span>
+              <span className="home-name2">Emmanuel Raciot</span>
+              <span className="home-location">[PROTECTED] </span>
             </div>
           </div>
           <div className="home-quote2">
             <p className="home-quote3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              Thanks to MG webdev, our company is back on track. As a non-profit
+              we always had a hard time getting the right audience, but thanks
+              to our website more and more visitors are coming to us.
             </p>
             <div className="home-author3">
-              <span className="home-name3">Joanna Smith</span>
-              <span className="home-location1">Briville</span>
+              <span className="home-name3">Patrick Pouchard</span>
+              <span className="home-location1">
+                <span className="home-text080">Kajakclub de Waterratjes</span>
+                <br></br>
+                <span>-- Non-profit org --</span>
+                <br></br>
+              </span>
             </div>
           </div>
           <div className="home-quote4">
             <p className="home-quote5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              As a non-profit, we always wanted to expand and get more than just
+              a Facebook group. I contact mg webdev and they said they had just
+              the right tools to help me expand. We are now a successful
+              organization with more than 2k members.
             </p>
             <div className="home-author4">
-              <span className="home-name4">Joanna Smith</span>
-              <span className="home-location2">Briville</span>
+              <span className="home-name4">John Goold</span>
+              <span className="home-location2">
+                <span className="home-text084">Manager at JAPAJ</span>
+                <br></br>
+                <span>-- Non-profit org --</span>
+                <br></br>
+              </span>
             </div>
           </div>
           <div className="home-quote6">
             <p className="home-quote7">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              MG WebDev Ltd. has one of the best tools, for the cheapest price.
+              We compared it to other companies, but mg webdev stayed the
+              cheapest. Ever since we stick with mg webdev.
             </p>
             <div className="home-author5">
-              <span className="home-name5">Joanna Smith</span>
-              <span className="home-location3">Briville</span>
+              <span className="home-name5">Hudson Grayndler</span>
+              <span className="home-location3">[PROTECTED CONTENT]</span>
             </div>
           </div>
         </div>
         <div className="home-controls1">
           <button className="home-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon33">
+            <svg viewBox="0 0 1024 1024" className="home-icon31">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
           <button className="home-next1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon35">
+            <svg viewBox="0 0 1024 1024" className="home-icon33">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -968,11 +963,16 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
-      <section className="home-f-a-q">
+      <img
+        alt="image"
+        src="/playground_assets/167683222595415161-800h.png"
+        className="home-image09"
+      />
+      <section id="faq" className="home-f-a-q">
         <div className="home-header22">
           <h2 className="home-heading13">
             <span>Frequently asked </span>
-            <span className="home-text84">questions</span>
+            <span className="home-text092">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1003,7 +1003,7 @@ new BlazeSlider(el, {
                   servers anymore and are being deleted forever. Our team can do
                   nothing to repair these damages.
                 </span>
-                <span className="home-text87">
+                <span className="home-text095">
                   We are not responsible and cannot be hold liable to any
                   changes YOU make to your website
                 </span>
@@ -1042,7 +1042,7 @@ new BlazeSlider(el, {
                   if your website is still hacked we will do everything we can
                   to help you from this issue.  
                 </span>
-                <span className="home-text89"> </span>
+                <span className="home-text097"> </span>
                 <br></br>
               </p>
             </div>
@@ -1062,96 +1062,113 @@ new BlazeSlider(el, {
           </div>
         </div>
       </section>
-      <div className="home-footer">
+      <section id="contact" className="home-contact">
+        <div className="home-header-container5">
+          <div className="home-header29">
+            <div className="home-row17">
+              <h2 className="home-heading14">
+                <span>Contact Us</span>
+                <br></br>
+              </h2>
+            </div>
+          </div>
+          <p className="home-caption20">
+            <span>Contact MG WebDev for all general inquires </span>
+            <br></br>
+          </p>
+        </div>
+        <div className="home-div2">
+          <DangerousHTML
+            html={`<iframe data-tally-src="https://tally.so/embed/waOYMb?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="392" frameborder="0" marginheight="0" marginwidth="0" title="Contact form - MG WebDev Ltd.
+"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>`}
+          ></DangerousHTML>
+        </div>
         <div className="home-content27">
+          <div className="home-image10"></div>
+        </div>
+      </section>
+      <div className="home-footer">
+        <div className="home-content28">
           <div className="home-main">
             <div className="home-branding1">
               <img
                 alt="image"
                 src="/playground_assets/logo_small-light-1500h.png"
-                className="home-image10"
+                className="home-image11"
               />
-              <span className="home-text93">
+              <span className="home-text105">
                 Delivering services in the EU with our talented web designers
                 since 2019.
               </span>
             </div>
             <div className="home-links">
               <div className="home-column2">
-                <span className="home-header29">Company</span>
+                <span className="home-header30">Company</span>
                 <div className="home-list">
                   <Link to="/" className="home-navlink">
                     About
                   </Link>
-                  <Link to="/" className="home-navlink01">
-                    Services
+                  <a href="#Objectives" className="home-link">
+                    Objectives
+                  </a>
+                  <Link to="/" className="home-navlink1">
+                    NonProfits
                   </Link>
-                  <Link to="/" className="home-navlink02">
-                    How
-                  </Link>
-                  <Link to="/" className="home-navlink03">
-                    <span className="home-text94">Why</span>
+                  <Link to="/" className="home-navlink2">
+                    <span>Institutions</span>
                     <br></br>
                   </Link>
                 </div>
               </div>
               <div className="home-column3">
-                <span className="home-header30">Extern</span>
+                <span className="home-header31">Extern</span>
                 <div className="home-list1">
-                  <Link to="/" className="home-navlink04">
-                    News
-                  </Link>
-                  <Link to="/" className="home-navlink05">
-                    Articles
-                  </Link>
-                  <Link to="/" className="home-navlink06">
-                    Blog
-                  </Link>
-                  <Link to="/" className="home-navlink07">
-                    Privacy
-                  </Link>
-                  <Link to="/" className="home-navlink08">
-                    Terms
-                  </Link>
-                  <Link to="/" className="home-navlink09">
-                    Legal
-                  </Link>
-                  <Link to="/" className="home-navlink10">
-                    Press
-                  </Link>
+                  <a
+                    href="https://support.mgwebdev.eu"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link1"
+                  >
+                    Support
+                  </a>
+                  <a href="https://status.mgwebdev.eu" className="home-link2">
+                    Status
+                  </a>
+                  <a
+                    href="https://privacy.mgwebdev.eu"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link3"
+                  >
+                    Privacy Portal
+                  </a>
                 </div>
               </div>
               <div className="home-column4">
-                <span className="home-header31">Social</span>
+                <span className="home-header32">Social</span>
                 <div className="home-list2">
-                  <Link to="/" className="home-navlink11">
-                    LinkedIn
-                  </Link>
-                  <Link to="/" className="home-navlink12">
-                    Twitter
-                  </Link>
-                  <Link to="/" className="home-navlink13">
+                  <Link to="/" className="home-navlink3">
                     Instagram
                   </Link>
-                  <Link to="/" className="home-navlink14">
+                  <Link to="/" className="home-navlink4">
                     Facebook
                   </Link>
-                  <Link to="/" className="home-navlink15">
-                    TikTok
+                  <Link to="/" className="home-navlink5">
+                    YouTube
                   </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text96">
+            <span className="home-text108">
               © 2023 MG WebDev LTD. - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button5 button">
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="home-image11"
+                className="home-image12"
               />
             </button>
           </div>
